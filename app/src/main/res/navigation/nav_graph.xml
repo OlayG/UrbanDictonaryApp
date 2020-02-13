@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchWordFragment">
+
+    <fragment
+        android:id="@+id/searchWordFragment"
+        android:name="com.example.urbandictonaryapp.view.searchwordfragment.SearchWordFragment"
+        android:label="fragment_search_word"
+        tools:layout="@layout/fragment_search_word" />
+</navigation>
